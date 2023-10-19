@@ -82,6 +82,8 @@ Contract.belongsTo(Profile, {as: 'Client'})
 Contract.hasMany(Job)
 Job.belongsTo(Contract)
 
+
+
 module.exports = {
   sequelize,
   Profile,
