@@ -11,7 +11,7 @@
   "scripts": {
     "start": "nodemon ./src/server.js",
     "seed": "node ./scripts/seedDb.js",
-    "tests": "jest --watchAll"
+    "tests": "jest"
   },
   "devDependencies": {
     "concurrently": "^8.0.1",
